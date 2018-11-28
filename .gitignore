@@ -1,2 +1,5 @@
 # Demo app executable
 demo-app
+.terraform
+*.tfstate
+

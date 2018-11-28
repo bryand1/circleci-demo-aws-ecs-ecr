@@ -7,7 +7,7 @@ import(
 
 func mainHandler() http.HandlerFunc{
 	return http.HandlerFunc(func(w http.ResponseWriter, r *http.Request){
-		fmt.Fprintf(w, "Testing code changes. Hello World!")
+		fmt.Fprintf(w, "These coding changes are only visible in the staging area. Hello World!")
 	})
 }
 
